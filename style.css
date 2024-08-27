@@ -1,0 +1,41 @@
+@charset "UFT-08";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "VT323", monospace;
+    font-weight: 900;
+    background-color: black;
+}
+
+.caixa-principal{
+    height: 100vh;
+    width: 100%; 
+    background-image: url(img/matrix.pinterest.jpg);
+    background-repeat: no-repeat;
+    
+}
+img {
+   display: flex;
+   align-items: self-start;
+   justify-content: space-around;
+}
+
+nav {
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.portifolio {
+    color: aliceblue;
+    font-size:2.5em ;
+}
+
+.portifolio span {
+    color: #349b62;
+}

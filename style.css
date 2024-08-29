@@ -87,7 +87,7 @@ header{
 .mobile-menu {
     display: none;
 }
-@media screen and (max-width:659px)/*ESTA É A CONDIÇÃO PARA QUE O MENU MOBILE APAREÇA */{
+@media screen and (max-width:599px)/*ESTA É A CONDIÇÃO PARA QUE O MENU MOBILE APAREÇA */{
     .nav-bar{
         padding: 1.5rem 4rem;
     }
@@ -144,3 +144,28 @@ main{
     margin-left: 35px;
 }
 
+.foto {
+    display: flex;
+    justify-content: left;
+    align-items:center;   
+}
+.foto img{
+    border-radius: 50%;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.frase{
+    max-width:620 ;
+}
+
+h1, h2 {
+    font-size: 1.3em;
+    margin-right: 30px;
+    padding-right: 30px;
+}
+h1{
+    padding-top: 50px;
+}

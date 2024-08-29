@@ -57,7 +57,7 @@ header{
     
 }
 .nav-item {
-    margin: 15px;
+    margin: 0 15px;
 }
 .nav-link {
     text-decoration: none;

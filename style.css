@@ -38,11 +38,12 @@ header{
 .logo{
     display: flex;
     align-items: center;
+    
 }
 .logo h1{
     color: var(--branco);
-    font-size: 1.90em;
-
+    font-size: 3em;
+   font-style: 200px;
 }
 
 .nav-list{
